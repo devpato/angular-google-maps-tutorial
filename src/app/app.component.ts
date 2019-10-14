@@ -12,4 +12,8 @@ export class AppComponent {
   lat = 40.73061;
   lng = -73.935242;
   coordinates = new google.maps.LatLng(this.lat, this.lng);
+  mapOptions: google.maps.MapOptions = {
+    center: this.coordinates,
+    zoom: 8
+  };
 }
