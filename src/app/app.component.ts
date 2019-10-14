@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,5 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-gmap';
+  @ViewChild('mapContainer', { static: false }) gmap: ElementRef;
 }
