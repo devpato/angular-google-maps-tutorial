@@ -8,4 +8,5 @@ import { Component, AfterViewInit, ViewChild, ElementRef } from '@angular/core';
 export class AppComponent {
   title = 'angular-gmap';
   @ViewChild('mapContainer', { static: false }) gmap: ElementRef;
+  map: google.maps.Map;
 }
