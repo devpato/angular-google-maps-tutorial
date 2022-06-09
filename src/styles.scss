@@ -1,0 +1,11 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+    background: rgb(153, 207, 237);
+    background: radial-gradient(circle, rgba(153, 207, 237, 1) 0%, rgba(153, 172, 237, 1) 100%, rgba(0, 185, 255, 1) 100%);
+    backdrop-filter: blur(4px);
+}
+
+body {
+    background-color: inherit !important;
+    min-height: 600px;
+}
