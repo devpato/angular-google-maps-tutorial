@@ -1,0 +1,26 @@
+#main-content {
+  display: flex;
+  flex-direction: column;
+}
+
+#map {
+  margin-bottom: 30px;
+  height: 500px;
+  width: 100%;
+}
+
+#generate-button {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  color: rgb(54, 80, 168);
+  font-weight: bold;
+  margin: 0 auto;
+  text-transform: uppercase;
+  width: 200px;
+
+  &:active {
+    background-color: rgb(54, 80, 168);;
+    color: white;
+  }
+}
